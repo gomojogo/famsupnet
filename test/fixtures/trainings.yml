@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  date: 2015-11-29
+  location_address: MyString
+  location_city: MyString
+  location_state: MyString
+  trainer1: MyString
+  trainer2: MyString
+  category_id: 
+
+two:
+  title: MyString
+  description: MyText
+  date: 2015-11-29
+  location_address: MyString
+  location_city: MyString
+  location_state: MyString
+  trainer1: MyString
+  trainer2: MyString
+  category_id: 

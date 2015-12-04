@@ -1,0 +1,126 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
+
+
+.top-bar {
+	height: 5px;
+	background: teal;
+	margin-bottom: 1px;
+}
+
+.navbar {
+	margin-bottom:10px;
+}
+
+.navbar li {
+	font-weight: 700;
+}
+
+
+.navbar li:hover {
+	background:teal;
+}
+
+
+
+body  {
+    background-image: url(https://drscdn.500px.org/photo/102710297/m%3D2048/af5829c44c0e951d4abb27ad9f91cf80);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+.jumbotron {
+	
+	height: 165px;
+	background-color: transparent;
+	padding-top: 5px;
+	margin-top: 20px;
+	margin-bottom: 200px;
+}
+
+.jumbotron [class*="col-"] {
+	padding-top: 20px;
+	padding-bottom: 0px;
+	background-color: lightseagreen;
+	
+	overflow:auto;
+	height:165px;
+}
+
+.jumbotron-content {
+	color: white;
+	font-size: 12px;
+	text-shadow: 1px 1px #000000;
+	text-align: center;
+
+}
+
+.logowork h2 {
+	font-size: 36px;
+	text-shadow: 3px 3px #CC3300;
+	color: white;
+}
+
+.colored-boxes {
+	margin-bottom: 40px;
+	color: white;
+	text-align: justify;
+}
+
+
+.purplebox {
+	height: 250px;
+	background-color: purple;
+	padding:0 10px;
+	font-size: 120%;
+	
+}
+
+.orangebox {
+	height: 250px;
+	background-color: orange;
+	padding:0 10px;
+	font-size: 120%;
+	
+}
+
+.greenbox {
+	height: 250px;
+	background-color: green;
+	padding:0 10px;
+	font-size: 120%;
+	
+}
+
+.purplebox a.learnmore {
+	position:absolute;
+	bottom:15px;
+	left:30px;
+	background:#2b8cbc;
+	padding:10px 15px;
+	color:#ffffff;
+}
+
+.orangebox a.learnmore {
+	position:absolute;
+	bottom:15px;
+	left:30px;
+	background:#2b8cbc;
+	padding:10px 15px;
+	color:#ffffff;
+}
+
+.greenbox a.learnmore {
+	position:absolute;
+	bottom:15px;
+	left:30px;
+	background:#2b8cbc;
+	padding:10px 15px;
+	color:#ffffff;
+}
+
