@@ -51,5 +51,8 @@ class CertificationsController < ApplicationController
 
 private
 
-def
+  def certification_params
+    params.require(:certification).permit(:title, :description, :training_id)
+  end
+
 end
