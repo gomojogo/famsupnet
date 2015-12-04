@@ -36,6 +36,14 @@ html {
 	margin-bottom:10px;
 }
 
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
 .navbar li {
 	font-weight: 500;
 }
@@ -76,6 +84,7 @@ body  {
 	font-size: 12px;
 	text-shadow: 1px 1px #000000;
 	text-align: center;
+	font-family: 'Hind Vadodara', sans-serif;
 
 }
 
@@ -92,30 +101,34 @@ body  {
 	margin-bottom: 40px;
 	color: white;
 	text-align: justify;
+	font-family: 'Hind Vadodara', sans-serif;
 }
 
 
 .purplebox {
-	height: 250px;
-	background-color: #D93812;
+	height: 300px;
+	background-color: #D93812;  /*UAOrange*/
 	padding:0 10px;
 	font-size: 120%;
+	font-family: 'Hind Vadodara', sans-serif;
 	
 }
 
 .orangebox {
-	height: 250px;
+	height: 300px;
 	background-color: orange;
 	padding:0 10px;
 	font-size: 120%;
+	font-family: 'Hind Vadodara', sans-serif;
 	
 }
 
 .greenbox {
-	height: 250px;
-	background-color: #1BB1B1;
+	height: 300px;
+	background-color: #1BB1B1;  /*junglegreen*/
 	padding:0 10px;
 	font-size: 120%;
+	font-family: 'Hind Vadodara', sans-serif;
 	
 }
 
@@ -126,6 +139,7 @@ body  {
 	background:#2b8cbc;
 	padding:10px 15px;
 	color:#ffffff;
+	font-family: 'Hind Vadodara', sans-serif;
 }
 
 .orangebox a.learnmore {
@@ -135,6 +149,7 @@ body  {
 	background:#2b8cbc;
 	padding:10px 15px;
 	color:#ffffff;
+	font-family: 'Hind Vadodara', sans-serif;
 }
 
 .greenbox a.learnmore {
@@ -144,5 +159,42 @@ body  {
 	background:#2b8cbc;
 	padding:10px 15px;
 	color:#ffffff;
+	font-family: 'Hind Vadodara', sans-serif;
 }
 
+#user-signup {
+	background-color: #FFF6DB;
+	text-align: center;
+	padding: 15px;
+	border: 1px solid teal;
+}
+
+#user-signup h1 {
+	color: #D93812;
+	font-family: 'Hind Vadodara', sans-serif;
+}
+
+
+
+.next-area {
+	margin-top: 85px;
+	
+}
+
+.another-area {
+	padding: 30px;
+	font-family: 'Hind Vadodara', sans-serif;
+	text-align: center;
+}
+
+.facebook-area {
+	font-family: 'Hind Vadodara', sans-serif;
+	height: 500px;
+	
+}
+
+.facebook-area h3 {
+	font-family: 'Hind Vadodara', sans-serif;
+	color: #3b5998;
+	text-align: center;
+}

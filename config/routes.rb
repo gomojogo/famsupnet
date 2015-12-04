@@ -3,13 +3,7 @@ Rails.application.routes.draw do
   
 
 
-  get 'users/new'
-
-  get 'users/index'
-
-  get 'users/show'
-
-  get 'users/edit'
+  resources :users
 
   resources :categories do
     resources :trainings

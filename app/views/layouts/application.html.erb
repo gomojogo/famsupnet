@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Famsupnet</title>
+  <title>SF Family Support Network</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -52,9 +52,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/"><i class="fa fa-home"></i> HOME</a></li>
-        
-        <!-- <li><a href="#"><i class="fa fa-info-circle"></i> ABOUT </a></li> -->
+        <li class="active"><%= link_to 'HOME', root_path %></li>
 
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-info-circle"></i> ABOUT <span class="caret"></span></a>
@@ -151,7 +149,7 @@
         <button type="submit" class="btn btn-default"> Search </button>
       </form> -->
       <li><a href="/contact_us"><i class="fa fa-envelope"></i> CONTACT </a></li>
-      <li><a href="#"><i class="fa fa-user-plus"></i> LOGIN/REGISTER </a></li>
+      <li><a href="/users/new"><i class="fa fa-user-plus"></i> LOGIN/REGISTER </a></li>
       </ul>
       
     </div><!-- /.navbar-collapse -->
