@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151129234436) do
+ActiveRecord::Schema.define(version: 20151204073932) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -69,6 +69,19 @@ ActiveRecord::Schema.define(version: 20151129234436) do
 
   add_index "trainings", ["category_id"], name: "index_trainings_on_category_id", using: :btree
   add_index "trainings", ["certification_id"], name: "index_trainings_on_certification_id", using: :btree
+
+  create_table "users", force: :cascade do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "organization_name"
+    t.string   "email"
+    t.string   "phone"
+    t.string   "trainings_taken"
+    t.string   "certifications_earned"
+    t.string   "trainings_registered"
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
+  end
 
   add_foreign_key "categories", "trainings"
   add_foreign_key "certifications", "trainings"

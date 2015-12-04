@@ -3,6 +3,14 @@ Rails.application.routes.draw do
   
 
 
+  get 'users/new'
+
+  get 'users/index'
+
+  get 'users/show'
+
+  get 'users/edit'
+
   resources :categories do
     resources :trainings
   end
@@ -13,9 +21,15 @@ Rails.application.routes.draw do
 
   
   get 'static_pages/home'
-  
+
+  get 'committees', to: 'static_pages#committees'
+
+  get 'about', to: 'static_pages#about'
+  get 'cap_center', to: 'static_pages#cap_center'
 
   get 'staff', to: 'static_pages#staff'
+
+  get 'trainings', to: 'static_pages#trainings'
 
   get 'contact_us', to: 'static_pages#contact_us'
 
@@ -23,7 +37,7 @@ Rails.application.routes.draw do
 
   get 'standards_and_policies', to: 'static_pages#family_support_standards'
 
-  get 'policy_and_planning', to: 'static_pages#policy_and_planning'
+  # get 'policy_and_planning', to: 'static_pages#policy_and_planning'
 
   get 'committees', to: 'static_pages#committees'
 

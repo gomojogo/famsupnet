@@ -3,8 +3,28 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+@import url(https://fonts.googleapis.com/css?family=Hind+Vadodara|Arimo|Lobster);
 
+/*Teals
 
+Dark Cyan  Hex Code #008B8B
+RGB 0, 139, 139
+
+Medium Jungle Green 	Hex Code #1BB1B1
+Spiro Disco Ball  		Hex Code #OF93B2
+Tufts Blue 				Hex Code #41D7D7
+
+Orange
+Tomato  	Hex Code #FF613C
+UA Red  	Hex Code # D93812
+Coral      	Hex Code #FF8062
+
+Neutral
+
+Lemon Hex Code # FFF6DB*/
+html {
+	font-family: 'Arimo', sans-serif;
+}
 
 .top-bar {
 	height: 5px;
@@ -17,7 +37,7 @@
 }
 
 .navbar li {
-	font-weight: 700;
+	font-weight: 500;
 }
 
 
@@ -26,10 +46,9 @@
 }
 
 
-
 body  {
-    background-image: url(https://drscdn.500px.org/photo/102710297/m%3D2048/af5829c44c0e951d4abb27ad9f91cf80);
-    background-color: #cccccc;
+    background-image: image-url('happy_healthy.jpg');
+    background-color: #FFF6DB;
     background-repeat: no-repeat;
     background-size: 100%;
     }
@@ -46,7 +65,7 @@ body  {
 .jumbotron [class*="col-"] {
 	padding-top: 20px;
 	padding-bottom: 0px;
-	background-color: lightseagreen;
+	background-color: darkcyan;
 	
 	overflow:auto;
 	height:165px;
@@ -61,8 +80,11 @@ body  {
 }
 
 .logowork h2 {
-	font-size: 36px;
-	text-shadow: 3px 3px #CC3300;
+	font-size: 56px;
+	font-family: 'Lobster', cursive;
+	text-shadow: 2px 2px #D93812;
+	text-align: center;
+
 	color: white;
 }
 
@@ -75,7 +97,7 @@ body  {
 
 .purplebox {
 	height: 250px;
-	background-color: purple;
+	background-color: #D93812;
 	padding:0 10px;
 	font-size: 120%;
 	
@@ -91,7 +113,7 @@ body  {
 
 .greenbox {
 	height: 250px;
-	background-color: green;
+	background-color: #1BB1B1;
 	padding:0 10px;
 	font-size: 120%;
 	

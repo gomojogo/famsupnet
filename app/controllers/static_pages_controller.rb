@@ -2,7 +2,19 @@ class StaticPagesController < ApplicationController
   def home
   end
 
+  def about
+  end
+
   def staff
+  end
+
+  def cap_center
+  end
+
+  def committees
+  end
+
+  def trainings
   end
 
   def contact_us
@@ -12,9 +24,6 @@ class StaticPagesController < ApplicationController
   end
 
   def family_support_standards
-  end
-
-  def policy_and_planning
   end
 
   def committees
