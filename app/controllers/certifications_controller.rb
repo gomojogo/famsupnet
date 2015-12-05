@@ -52,7 +52,7 @@ class CertificationsController < ApplicationController
 private
 
   def certification_params
-    params.require(:certification).permit(:title, :description, :training_id)
+    params.require(:certification).permit(:title, :description)
   end
 
 end
